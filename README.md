@@ -18,14 +18,15 @@ This repository contains the official implementation of the AAAI 2026 paper "Sli
 
 ## 🔆 Highlights 
 
-- **Task:** We introduce a novel task that conditions paper-to-slides generation on user-specified preferences.
+- **Task:** We introduce and properly define a new task that conditions paper-to-slide generation on user-specified preferences.
 - **System:** We propose a human behavior-inspired agentic framework, SlideTailor, that progressively generates editable slides in a user-aligned manner.
 - **Evaluation:** We construct a benchmark dataset that captures diverse user preferences, with meticulously designed interpretable metrics for robust evaluation.
-- **Open Source:** We will release the source code and data to the community.
+- **Open Source:** We release the source code and data to the community.
 
 
-## 🔥News
+## 🔥 News
 * [2025-11] Our work is accepted to AAAI 2026!
+* [2025-11] We release our code and data to the community!
 
 ## 🛠️ Environment
 1. Create a new conda environment
@@ -43,23 +44,31 @@ pip install -r requirements.txt
 "openai_api_key": "sk-proj-1234"
 }
 ```
+## 📦 Dataset
+Please prepare the data and the corresponding config files according to the instructions on the [PSP Dataset](https://huggingface.co/datasets/yyyang/SlideTailor-PSP-dataset) page.
 
-### Inference
+## 🤖 Inference
+Remember to modify the relevant paths in the following script before running it.
 
 ```
 sh run.sh
 ```
 
-### Evaluation
-
+## ⚖️ Evaluation
+Remember to modify the relevant paths in the following script before running it.
 ```
 sh eval.sh
 ```
 
 
-## 🎓 Citation
+## 🙏 Acknowledgments
 
-If you find our work useful in your research, please consider to cite our paper:
+We would like to thank [PPTAgent](https://github.com/icip-cas/PPTAgent) for their valuable contribution and for making their codebase available to the community.
+
+
+## 📖 Citation
+
+If you find this work helpful, please kindly cite our paper:
 
   ```
   @inproceedings{slidetailor,
