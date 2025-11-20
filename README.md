@@ -33,11 +33,16 @@ This repository contains the official implementation of the AAAI 2026 paper "Sli
 ```sh
 conda create -n slidetailor python=3.11
 ```
-2. Install dependency
+2. Install python dependency
 ```sh
 pip install -r requirements.txt
 ```
-3. Prepare your API key (named as api_key.json)
+3. Install other dependencies
+```sh
+#If using Ubuntu
+sudo apt-get install libreoffice poppler-utils
+```
+4. Prepare your API key (named as api_key.json)
 
 ```
 {
