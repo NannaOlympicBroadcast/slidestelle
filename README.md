@@ -1,22 +1,47 @@
 
 <p align="center">
   <h1 align="center">SlideTailor: Personalized Presentation Slide Generation for Scientific Papers</h1>
+
   <p align="center">
-
-
+    <a href="https://wenzhengzeng.github.io/">Wenzheng Zeng*</a>,
+<!--     · -->
+    <a href="https://scholar.google.com/citations?user=GoYztjwAAAAJ&hl=en">Mingyu Ouyang*</a>,
+<!--     · -->
+    <a href="https://openreview.net/profile?id=~Langyuan_Cui1">Langyuan Cui*</a>,
+<!--     · -->
+    <a href="https://scholar.google.com.tw/citations?user=FABZCeAAAAAJ">Hwee Tou Ng📧</a>,
+    
+  </p>
+  <p align="center">National University of Singapore</p>
   <h3 align="center">AAAI 2026</h3>
+
+  <h3 align="center"> 
+  <a href="https://arxiv.org/abs/2512.20292">📄 Paper</a> &nbsp; | &nbsp;
+  <a href="https://huggingface.co/datasets/yyyang/SlideTailor-PSP-dataset">🤗 Dataset</a> &nbsp; | &nbsp;
+  <a href="https://drive.google.com/drive/folders/1N8p1A4eW8Nrrc2fN5NnIutG0og9u_GIy?usp=sharing">🖼️ Poster</a> &nbsp; | &nbsp;
+  <a href="https://www.youtube.com/watch?v=NT5kWE6j_Vw">▶️ Video</a> &nbsp; | &nbsp;
+<a href="https://drive.google.com/drive/folders/1N8p1A4eW8Nrrc2fN5NnIutG0og9u_GIy?usp=sharing">▶️ Slides</a> &nbsp;
+</a> </h3>
 
 
 </a> </h3>
   <div align="center"></div>
+</p>
+<p align="center">
+    <img src="pic/fig2.png" width="90%"/>
+
 </p>
 
 
 </p>
 This repository contains the official implementation of the AAAI 2026 paper "SlideTailor: Personalized Presentation Slide Generation for Scientific Papers".
 
+## 🔆 Overview
+We argue that presentation design is inherently subjective. Users have different preferences in terms of narrative structure, emphasis, conciseness, aesthetic choices, etc. 
 
-## 🔆 Highlights 
+So in this work, we ask: **Can we better model such diverse user preferences for personalized paper-to-slides generation?**
+
+We make the following contributions:
 
 - **Task:** We introduce and properly define a new task that conditions paper-to-slide generation on user-specified preferences.
 - **System:** We propose a human behavior-inspired agentic framework, SlideTailor, that progressively generates editable slides in a user-aligned manner.
