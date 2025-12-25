@@ -9,7 +9,7 @@
 <!--     · -->
     <a href="https://openreview.net/profile?id=~Langyuan_Cui1">Langyuan Cui*</a>,
 <!--     · -->
-    <a href="https://scholar.google.com.tw/citations?user=FABZCeAAAAAJ">Hwee Tou Ng📧</a>,
+    <a href="https://scholar.google.com.tw/citations?user=FABZCeAAAAAJ">Hwee Tou Ng†</a>,
     
   </p>
   <p align="center">National University of Singapore</p>
