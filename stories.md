@@ -357,4 +357,3 @@ SlideTailor is a personalized presentation slide generation system for scientifi
 - User data should be processed locally without external sharing
 - Generated content should be saved with appropriate access permissions
           test
-          
